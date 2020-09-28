@@ -1,21 +1,19 @@
 const licenseBadge = (licenseConfirm, license, github, githubRepo) => {
   if(licenseConfirm) {
     const licenseLink = 'https://img.shields.io/github/license/' + github + '/' + githubRepo
-    return `
-    ![GitHub](${ licenseLink })
-    `
+    return `![GitHub](${ licenseLink })`
   } else {
     license = encodeURI(license);
-    return `
-    ![license badge](https://img.shields.io/badge/license-${ license }-brightgreen)
-    `
+    return `![license badge](https://img.shields.io/badge/license-${ license }-brightgreen)`
   }
 }
 
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${ data.title } ${ licenseBadge(data.licenseConfirm, data.license, data.github, data.githubRepo) }
+  # ${ data.title }
+  
+  ${ licenseBadge(data.licenseConfirm, data.license, data.github, data.githubRepo) }
   ## Description
   ${ data.description }
   ## Table of Contents

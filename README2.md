@@ -1,9 +1,9 @@
 
-  # Portfolio Generator 
-    ![license badge](https://img.shields.io/badge/license-GNU%20GPLv3-brightgreen)
-    
+  # space
+  
+  ![license badge](https://img.shields.io/badge/license-GNU%20GPLv3-brightgreen)
   ## Description
-  portfolio generator
+  space
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -12,17 +12,15 @@
   * [Tests](#tests)
   * [Questions](#questions)
   ## Installation
-  node.js and npm inquirer
+  space
   ## Usage
-  clone, command line `node app`
+  space
   ## License
-  This project uses 
-    ![license badge](https://img.shields.io/badge/license-GNU%20GPLv3-brightgreen)
-    .
+  This project uses ![license badge](https://img.shields.io/badge/license-GNU%20GPLv3-brightgreen).
   ## Contributing
-  fork
+  space
   ## Tests
-  testing testing
+  space
   ## Questions
-  [My GitHub Profile](https://github.com/kpehl)
-  Email me at: [kathleen.pehl@gmail.com](mailto:kathleen.pehl@gmail.com) with questions about this project
+  [My GitHub Profile](https://github.com/space)
+  Email me at: [space](mailto:space) with questions about this project
