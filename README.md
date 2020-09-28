@@ -26,8 +26,11 @@ This project uses Node to create a professional and detailed README.md file for 
 * The application will create a README.md file with your inputs and notify you that the file was successfully created
 * The README.md file can then be committed and pushed to the appropriate repository, or the markdown text can be copied into the README file on the GitHub website.  
 
+## Test Data
+If you would like to test the function of the application, you may use the information in [this text file](TestDataForREADME.txt).
+
 ## Sample README.md Output
-A sample output for this program can be found [here](#).
+A sample output for this program can be found [here](./dist/README.md).
 
 ## Video Walkthrough
 A video walkthrough of the functionality of the application is available [here](#).

@@ -154,7 +154,7 @@ function init() {
     return inquirer
         .prompt(questions)
         .then(readmeData => {
-            return writeToFile('README2.md',readmeData)
+            return writeToFile('./dist/README.md',readmeData)
         })
         .catch(err => {
             console.log(err);
