@@ -1,7 +1,20 @@
+const licenseBadge = (licenseConfirm, license, github, githubRepo) => {
+  if(licenseConfirm) {
+    const licenseLink = 'https://img.shields.io/github/license/' + github + '/' + githubRepo
+    return `
+    ![GitHub](${ licenseLink })
+    `
+  } else {
+    return `
+    ![license badge](https://img.shields.io/badge/license-${ license }-brightgreen)
+    `
+  }
+}
+
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${ data.title } ![license badge - ${ data.license }](https://img.shields.io/badge/license-${ data.license }-brightgreen)
+  # ${ data.title } ${ licenseBadge(data.licenseConfirm, data.license, data.github, data.githubRepo) }
   ## Description
   ${ data.description }
   ## Table of Contents
@@ -16,13 +29,14 @@ function generateMarkdown(data) {
   ## Usage
   ${ data.usage }
   ## License
-  This project uses a ${ data.license } license.
+  This project uses ${ licenseBadge(data.licenseConfirm, data.license, data.github, data.githubRepo) }.
   ## Contributing
   ${ data.contributing}
   ## Tests
   ${ data.tests }
   ## Questions
-  ${ data.questions }
+  [My GitHub Profile](https://github.com/${ data.github })
+  Email me at: [${ data.email }](mailto:${ data.email }) with questions about this project
 `;
 };
 

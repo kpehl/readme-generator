@@ -1,7 +1,9 @@
 
-  # README Generator ![license badge - MIT](https://img.shields.io/badge/license-MIT-brightgreen)
+  # Porfolio Generator 
+    ![license badge](https://img.shields.io/badge/license-GNU GPLv3-brightgreen)
+    
   ## Description
-  This is a project using Node.js to generate a detailed, professional README.md file for GitHub repositories.
+  portfolio generator
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -10,14 +12,17 @@
   * [Tests](#tests)
   * [Questions](#questions)
   ## Installation
-  You will need Node.js and npm inquirer for this project.
+  node.js
   ## Usage
-  From the command line in the directory where the project is located, type node index to start the process.
+  clone
   ## License
-  This project uses a MIT license.
+  This project uses 
+    ![license badge](https://img.shields.io/badge/license-GNU GPLv3-brightgreen)
+    .
   ## Contributing
-  Email me below, or create a fork and a pull request.
+  fork
   ## Tests
-  Here is some test data you can copy for each of the sections.
+  testing
   ## Questions
-  undefined
+  [My GitHub Profile](https://github.com/kpehl)
+  Email me at: [kathleen.pehl@gmail.com](mailto:kathleen.pehl@gmail.com) with questions about this project

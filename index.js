@@ -57,10 +57,18 @@ const questions = [
         }
     },
     {
+        type: 'confirm',
+        name: 'licenseConfirm',
+        message: 'Does your project repository already have a license assigned?',
+    }, {
+        when: function (response) {
+            if (response.licenseConfirm === false) {return true;}
+            else {return false}
+        },
         type: 'list',
         name: 'license',
         message: 'What license are you using with your project?  (Select one)',
-        choices: ['MIT', 'GNU GPLv3', 'Apache 2.0', 'other']
+        choices: ['MIT', 'GNU GPLv3', 'Apache 2.0', 'other']        
     },
     {
         type: 'input',
@@ -84,6 +92,45 @@ const questions = [
                 return true;
             } else {
                 console.log('Please enter test instructions!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Provide your GitHub username.',
+        validate: input => {
+            if (input) {
+                return true;
+            } else {
+                console.log('Please enter your GitHub username!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'githubRepo',
+        message: 'Provide the GitHub repository name for your project.',
+        validate: input => {
+            if (input) {
+                return true;
+            } else {
+                console.log('Please enter your GitHub repository name!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Provide an email for users to contact you with questions.',
+        validate: input => {
+            if (input) {
+                return true;
+            } else {
+                console.log('Please enter your contact email!');
                 return false;
             }
         }
