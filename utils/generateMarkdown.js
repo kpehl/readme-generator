@@ -5,6 +5,7 @@ const licenseBadge = (licenseConfirm, license, github, githubRepo) => {
     ![GitHub](${ licenseLink })
     `
   } else {
+    license = encodeURI(license);
     return `
     ![license badge](https://img.shields.io/badge/license-${ license }-brightgreen)
     `
