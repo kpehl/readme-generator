@@ -28,7 +28,7 @@ function generateMarkdown(data) {
   ## Usage
   ${ data.usage }
   ## License
-  This project uses ${ licenseBadge(data.licenseConfirm, data.license, data.github, data.githubRepo) }.
+  This project uses ${ licenseBadge(data.licenseConfirm, data.license, data.github, data.githubRepo) }. You can get more information on licenses [here](https://choosealicense.com/).
   ## Contributing
   ${ data.contributing}
   ## Tests
