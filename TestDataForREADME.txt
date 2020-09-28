@@ -12,7 +12,7 @@ No special installation is required.  Simply open the page in the browser of you
 
 Usage:
 
-This page is hosted at https://kpehl.github.io/weather-dashboard/  Search for a city, specifying the full state name or a country name if desired and either press the enter key or click on the search button. The results for that city will be displayed.
+This page is hosted at https://kpehl.github.io/weather-dashboard/ .  Search for a city, specifying the full state name or a country name if desired and either press the enter key or click on the search button. The results for that city will be displayed.
 
 License already assigned?
 

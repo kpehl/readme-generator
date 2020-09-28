@@ -34,8 +34,8 @@ function generateMarkdown(data) {
   ## Tests
   ${ data.tests }
   ## Questions
-  [My GitHub Profile](https://github.com/${ data.github })
-  Email me at: [${ data.email }](mailto:${ data.email }) with questions about this project
+  * [My GitHub Profile](https://github.com/${ data.github })
+  * Email me at: [${ data.email }](mailto:${ data.email }) with questions about this project
 `;
 };
 
