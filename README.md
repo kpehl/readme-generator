@@ -33,4 +33,4 @@ If you would like to test the function of the application, you may use the infor
 A sample output for this program can be found [here](./dist/README.md).
 
 ## Video Walkthrough
-A video walkthrough of the functionality of the application is available [here](#).
+A video walkthrough of the functionality of the application is available [here](https://drive.google.com/file/d/1D6LV2fgnADtmcRW1w9vw3lNIo3l0djEk/view).
