@@ -14,13 +14,13 @@
   ## Installation
   No special installation is required.  Simply open the page in the browser of your choice.
   ## Usage
-  This page is hosted at https://kpehl.github.io/weather-dashboard/  Search for a city, specifying the full state name or a country name if desired and either press the enter key or click on the search button. The results for that city will be displayed.
+  This page is hosted at https://kpehl.github.io/weather-dashboard/ .  Search for a city, specifying the full state name or a country name if desired and either press the enter key or click on the search button. The results for that city will be displayed.
   ## License
   This project uses ![license badge](https://img.shields.io/badge/license-MIT-brightgreen). You can get more information on licenses [here](https://choosealicense.com/).
   ## Contributing
   If you would like to contribute, feel free to fork this project and create your own modifications.  If there is something you would like to see implemented on my code, create a pull request, and I will take a look.
   ## Tests
-  McMurdo is a good search for very cold temperatures and low UV indexes, as it is in Antartica!
+  McMurdo is a good search for very cold temperatures and low UV indexes, as it is in Antartica! Key West, Florida is a good search for sunny, warm weather. Try cities in different time zones for seeing the difference between the daytime and nighttime weather icons, such as Seattle, New York, London, Moscow, and Tokyo.
   ## Questions
-  [My GitHub Profile](https://github.com/kpehl)
-  Email me at: [kathleen.pehl@gmail.com](mailto:kathleen.pehl@gmail.com) with questions about this project
+  * [My GitHub Profile](https://github.com/kpehl)
+  * Email me at: [kathleen.pehl@gmail.com](mailto:kathleen.pehl@gmail.com) with questions about this project
